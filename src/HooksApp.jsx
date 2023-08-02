@@ -13,11 +13,14 @@ import { Padre } from './07-tarea-memo/Padre';
 
 import '../src/08-useReducer/intro-reducer'
 import TodoApp from './08-useReducer/TodoApp';
+import MainApp from './09-useContext/MainApp';
+import { UserProvider } from './09-useContext/context/UserProvider';
 
 const HooksApp = () => {
 
     
     return (
+        <UserProvider>
         <div className='container'>
           {/* <CounterApp/> */}
           {/* <CounterWuthCustomHook/> */}
@@ -31,7 +34,9 @@ const HooksApp = () => {
           {/* <CallbackHook/> */}
           {/* <Padre/> */}
           <TodoApp/>
+          {/* <MainApp/> */}
         </div>
+        </UserProvider>
     );
 }
 

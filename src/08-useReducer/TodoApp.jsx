@@ -8,12 +8,11 @@ const TodoApp = () => {
 
      // useTodo
      // todos , handleDeleteTodo, handleToggleTodo,handleNewTodo
-     const {todos,handleDeleteTodo,handleToggleTodo,handleNewTodo} = UseTodos()
-
+     const {todos,todosCount,pendingTodosCount,handleDeleteTodo,handleToggleTodo,handleNewTodo} = UseTodos()
 
     return (
         <div>
-           <h1>Todo App {todos.length}, <small>pendientes: {0}</small></h1>
+           <h1>Todo App {todosCount}, <small>pendientes: {pendingTodosCount}</small></h1>
            <hr/>
 
            <div className='row'>
