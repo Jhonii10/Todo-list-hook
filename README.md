@@ -1,6 +1,16 @@
-# React + Vite
+# Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Todo App is a very basic to-do list app built with React and Bootstrap. With Todo App, you can add and delete, view your pending tasks, and mark tasks on your list as completed quickly and easily.
 
-Currently, two official plugins are available:
+## Technologies
 
+- ReactJS
+- Javascript
+- Css
+- Bootstrap
+
+## Developed by:
+
+- Jhoni ipia 
+
+## link: [Todo app basic](https://todo-app-basic-10.netlify.app/)
